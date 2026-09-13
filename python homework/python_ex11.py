@@ -1,0 +1,12 @@
+a = float(input('Введите число: '))
+b = float(input('Введите число: '))
+if a==0 or b==0:
+    print('Ошибка. Введите ненулевое число.')
+minus = abs(a - b)
+plus = abs(a + b)
+product = abs(a * b)
+division = abs(a / b)
+print('Разность: ', minus)
+print('Сумма: ', plus)
+print('Произведение: ', product)
+print('Частное: ', division)

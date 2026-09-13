@@ -1,0 +1,10 @@
+X = float(input('Кол-во кг шоколадных конфет: '))
+A = float(input('Цена шоколадных конфет: '))
+Y = float(input('Кол-во кг карамельных конфет: '))
+B = float(input('Цена карамельных конфет: '))
+price_per_kg_chocolate = A / X
+price_per_kg_caramel = B / Y
+ratio = price_per_kg_chocolate / price_per_kg_caramel
+print('Цена за 1 кг шоколадных конфет = ', round(price_per_kg_chocolate, 2))
+print('Цена за 1 кг карамельных конфет = ', round(price_per_kg_caramel, 2))
+print('Отношение шоколадных конфет к карамельным конфетам = ', round(ratio, 2))

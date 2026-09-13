@@ -1,0 +1,8 @@
+x1 = float(input('Введите х1: '))
+x2 = float(input('Введите х2: '))
+y1 = float(input('Введите y1: '))
+y2 = float(input('Введите y2: '))
+S = abs((x2 - x1) * (y2 - y1))
+P = 2 * (abs(x2 - x1) + abs(y2 - y1))
+print('Площадь прямоугольника: ', round(S, 2))
+print('Периметр прямоугольника: ', round(P, 2))

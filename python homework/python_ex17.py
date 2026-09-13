@@ -1,0 +1,7 @@
+a = float(input('Введите число a: '))
+b = float(input('Введите число b: '))
+c = float(input('Введите число c: '))
+ac = (abs(c - a))
+bc = (abs(c - b))
+print('Длина отрезка ac: ', round(ac, 2))
+print('Длина отрезка bc: ', round(bc, 2))
