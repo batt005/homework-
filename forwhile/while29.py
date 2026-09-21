@@ -1,0 +1,12 @@
+e = float(input("Введите вещественное число eps ( > 0 ): "))
+a1 = 1.0
+a2 = 2.0
+k = 2
+while abs(a2 - a1) >= e:
+    ak = (a1 + 2 * a2) / 3
+    a1 = a2
+    a2 = ak
+    k = k + 1
+print(f"Номер K = {k}")
+print(f"A(K-1) = {a1}")
+print(f"A(K) = {a2}")

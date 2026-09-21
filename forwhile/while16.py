@@ -1,0 +1,10 @@
+p = float(input("Введите процент P (0 < P < 50): "))
+current_run = 10.0
+total_sum = 10.0
+k = 1
+while total_sum <= 200:
+    current_run = current_run + current_run * (p / 100)
+    total_sum = total_sum + current_run
+    k = k + 1
+print(f"Количество дней K = {k}")
+print(f"Суммарный пробег S = {total_sum}")
