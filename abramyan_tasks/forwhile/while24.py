@@ -1,0 +1,11 @@
+n = int(input("Введите целое число N ( > 1 ): "))
+f1 = 1
+f2 = 1
+while f2 < n:
+    fk = f1 + f2
+    f1 = f2
+    f2 = fk
+if f2 == n:
+    print("TRUE")
+else:
+    print("FALSE")
